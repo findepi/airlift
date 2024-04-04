@@ -66,6 +66,7 @@
         <!-- skeleton / sample code -->
         <module>skeleton-server</module>
         <module>stats</module>
+        <module>test-containers-pull-cache</module>
         <module>testing</module>
         <module>trace-token</module>
         <module>tracing</module>
