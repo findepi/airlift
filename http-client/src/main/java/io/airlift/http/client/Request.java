@@ -92,7 +92,7 @@ public final class Request
     public String getHeader(String name)
     {
         List<String> values = headers.get(name);
-        if (values != null && !values.isEmpty()) {
+        if (!values.isEmpty()) {
             return values.get(0);
         }
         return null;
